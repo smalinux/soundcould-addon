@@ -1,0 +1,14 @@
+{
+   "action": {
+   },
+   "background": {
+      "service_worker": "background.js"
+   },
+   "content_scripts": [  ],
+   "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAj7oxCll/xoqKChxVAOXTxxI0jZ0gEHCYFpbgBZ55JrKjldiMkEiexPlUbTLz/pVMsQZjsr4bZT+Y+DQVsgcEuvUpJNybvBHC6VCwBdh7/kj82/W2lFBEPDKmDCnypXdTSLnYu6BtmlF35OGWf9/gwhRei2H1w07gdROvzK2dRYLsctqED2h8H1GwBw7zIXabVapHZkfHcfTv34/YZ2w9+Tz5IvtIZQmJNQcNkAROgj5IKw4sjOAl1tSmOYCPQEvgpwLvwXJESI3f7eJwG8zEWfTPmm/txZqXRd5AeDf5KY5BdHGSnCe1Kj215N5012iebFtCfubRyWjBH0uturUUxwIDAQAB",
+   "manifest_version": 3,
+   "name": "Have I visited this page before?",
+   "permissions": [ "tabs", "storage" ],
+   "update_url": "https://clients2.google.com/service/update2/crx",
+   "version": "1.1"
+}
